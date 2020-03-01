@@ -1,0 +1,57 @@
+# Insiemi
+set V := "Fps" "Rpg" "Str" "Adv" "Plt";
+set I := "Dip" "Pro";
+set R := "Pr" "Ar" "Ld"; 
+set E := "Ha" "Re";
+
+# Parametri
+param hn(tr) :   Pr   Ar   Ld :=
+       Fps 7600 2900 3200
+       Rpg 4400 2800 4200
+       Str 1380 1600 1050
+       Adv 1430 4900 1700
+       Plt  760 2200 3800;
+
+param dl := Fps 2
+            Rpg 2
+            Str 1
+            Adv 3
+            Plt 1;
+
+param qc := Fps 45000
+            Rpg 28000
+            Str 15000
+            Adv 23000
+            Plt 18000;
+
+param cc := Fps 23
+            Rpg 21
+            Str 14
+            Adv 9
+            Plt 12;
+
+param d := Pr 5
+           Ar 3
+           Ld 6;
+
+param st := Pr 4760
+            Ar 3600
+            Ld 4950;
+
+param hm := 160;
+param mt := 25;
+param md := 5;
+param phw := 0.14;
+param phs := 0.12;
+param pap := 0.33;
+param pag := 0.45;
+
+param fl := Ha 439
+            Re 839;
+
+param rl := Ha 0.02
+            Re 0.05;
+
+param av := 3;
+param N := 1000; # arbitrariamente grande
+            

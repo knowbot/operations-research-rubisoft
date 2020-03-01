@@ -1,0 +1,28 @@
+reset;
+
+model C:\Users\andre\Documents\rubisoft\rubisoftModel.mod;
+data C:\Users\andre\Documents\rubisoft\rubisoftData.dat;
+
+solve;
+
+display GuadagnoTot;
+printf "Programmatori \n";
+display X;
+printf "Artisti \n";
+display Y;
+printf "Level Designers \n";
+display Z;
+printf "Motore grafico \n";
+display P;
+printf "Licenze a costo fisso \n";
+display W;
+printf "Licenze a royalty \n";
+display Q;
+printf "Team con conflitti interni \n";
+display S;
+printf "Team che superano la dimensione critica \n";
+display T;
+printf "Team con abbastanza dipendenti \n";
+display U;
+printf "Videogiochi con micro-transazioni \n";
+display O;
